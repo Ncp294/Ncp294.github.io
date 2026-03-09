@@ -89,13 +89,6 @@ function checkCollision(newDim, createdPosts) {
     return collision;
 }
 
-//TODO: finish this
-/*
-- after a few attempts, send out an alert
-- if dismiss alert and click again, send to page with really long timer
-    - write a lil goof at end of timer in case someone actually waits it out
-*/
-
 function commentClick(id) {
     const button = document.getElementById(id);
 
@@ -103,7 +96,7 @@ function commentClick(id) {
     button.style.right = Math.floor(Math.random() * 100 - 50) + "%";
 
     if(clicks[id] == 4){
-        alert("Think about it. Question if the fight is worth it.");
+        alert("Think about it. Question if the fight is necessary.");
     }
 
     if(clicks[id] == 7){
@@ -112,14 +105,9 @@ function commentClick(id) {
 
     if(clicks[id] == 10){
         if(confirm("Do you really want to start this?")){
-            /*
-                TODO:
-                move to a new comment page
-                with no mention of what the post was, just minimal text entry and submit button
-                let them type it out and submit, on submit, trash it and talk about ranting or something
-            */
+           window.location = "comment.html";
         } else {
-            alert("Thank you. I'm proud. Please resume your browsing.");
+            alert("Thank you. I'm proud. Please resume your browsing and think a little longer.");
         }
     }
 

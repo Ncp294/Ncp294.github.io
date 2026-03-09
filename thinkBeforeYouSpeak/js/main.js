@@ -102,5 +102,26 @@ function commentClick(id) {
     button.style.bottom = Math.floor(Math.random() * 200 - 100) + "%";
     button.style.right = Math.floor(Math.random() * 100 - 50) + "%";
 
+    if(clicks[id] == 4){
+        alert("Think about it. Question if the fight is worth it.");
+    }
+
+    if(clicks[id] == 7){
+        alert("You seem persistent. Maybe take a deep breath and calm down.");
+    }
+
+    if(clicks[id] == 10){
+        if(confirm("Do you really want to start this?")){
+            /*
+                TODO:
+                move to a new comment page
+                with no mention of what the post was, just minimal text entry and submit button
+                let them type it out and submit, on submit, trash it and talk about ranting or something
+            */
+        } else {
+            alert("Thank you. I'm proud. Please resume your browsing.");
+        }
+    }
+
     clicks[id]++;
 }

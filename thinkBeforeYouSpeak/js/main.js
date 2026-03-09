@@ -6,7 +6,11 @@ const posts = [
     ["ICE Agent's Information Should be Public and Available", "The same as it is for any other law enforcement, judges, etc.", 0],
     ["The Same People Who Said 'Don't Tread on Me' Now Let the Government Walk All Over Them", "They've been brainwashed into not putting up a fight anymore.", 0],
     ["It is Important for Children to Have Access to Gender Affirming Care", "Giving them the option to learn and consider does not 'turn them gay', just gives the comfort and opportunity to be open.", 0],
-    ["Pronoun Preferences are Easy to and Should be Respected", "You would be upset if I called you by the wrong ones too wouldn't you?", 0]
+    ["Pronoun Preferences are Easy to and Should be Respected", "You would be upset if I called you by the wrong ones too wouldn't you?", 0],
+    ["It is Disrespectful to Dismantle Civil War Monuments", "These people have died for the country, and that should be remembered and respected.", 1],
+    ["The US is Over Involved in the Global Sphere", "We should not be instigating conflict with foreign nations as frequently as we do.", 0],
+    ["Immigrants are Essential to the American Experience", "The US, especially major cities, are a cultural melting pot that must be conserved.", 0],
+    ["Religion and School Do Not Need to Be as Separated as They Are", "The values taught through organized religion are important for children to learn.", 1]
 ]
 
 let clicks  = {};

@@ -12,9 +12,21 @@ html {
     height: 40%;
 }
 
+h3 {
+    margin: 2%;
+}
+
+p {
+    margin: 2%;
+}
+
+.commenting {
+    width: 30%;
+}
+
 .commentButton {
     width: 20%;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 2%;
+    right: 2%;
 }

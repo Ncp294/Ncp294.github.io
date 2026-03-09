@@ -109,6 +109,9 @@ function commentClick(id) {
         } else {
             alert("Thank you. I'm proud. Please resume your browsing and think a little longer.");
         }
+        clicks[id] = 0;
+        button.style.bottom = 2 + "%";
+        button.style.right = 2 + "%";
     }
 
     clicks[id]++;

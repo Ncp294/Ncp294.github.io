@@ -58,10 +58,11 @@ function generatePosts() {
         // make sure no collision
         div.style.top = Math.floor(Math.random() * 1000 + 8) + "%";
         div.style.left = Math.floor(Math.random() * 400 + 22) + "%";
-        const dim = div.getBoundingClientRect();
+        let dim = div.getBoundingClientRect();
         while (checkCollision(dim, createdPosts)){
             div.style.top = Math.floor(Math.random() * 1000 + 8) + "%";
             div.style.left = Math.floor(Math.random() * 400 + 22) + "%";
+            dim = div.getBoundingClientRect();
         }
 
         //store div for collision

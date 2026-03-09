@@ -85,13 +85,6 @@ function checkCollision(newDim, createdPosts) {
     return collision;
 }
 
-//TODO: finish this
-/*
-- after a few attempts, send out an alert
-- if dismiss alert and click again, send to page with really long timer
-    - write a lil goof at end of timer in case someone actually waits it out
-*/
-
 function commentClick(id) {
     const button = document.getElementById(id);
 

@@ -80,6 +80,7 @@ body {
 
 #captcha-text {
     margin-left: 15px;
+    color: rgb(85,85,85);
 }
 
 #captcha-img {
@@ -126,6 +127,22 @@ body {
     }
     100% {
         transform: rotate(360deg); /* End rotation at 360 degrees */
+    }
+}
+
+.check {
+    width: 50%;
+    height: 50%;
+    animation: fadeIn 1s;
+    display: none;
+    margin: auto;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
